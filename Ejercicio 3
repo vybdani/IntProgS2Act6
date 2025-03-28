@@ -1,16 +1,16 @@
 Algoritmo Ejercicio3
 	
 	definir monto_inicial, monto_final, intereses Como Real
-	definir años Como Entero
+	definir aÃ±os Como Entero
 	
 	intereses = 0.03
-	años = 5
+	aÃ±os = 5
 	
 	escribir "Ingrese el monto inicial del prestamo"
 	leer monto_inicial
 	
-	monto_final = monto_inicial * (1 + intereses) ^ años
+	monto_final = monto_inicial * (1 + intereses) ^ aÃ±os
 	
-	Escribir "El monto a pagar al cabo de 5 años es de: " monto_final
+	Escribir "El monto a pagar al cabo de 5 aÃ±os es de: " monto_final
 	
 FinAlgoritmo
